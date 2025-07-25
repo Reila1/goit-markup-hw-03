@@ -129,6 +129,8 @@ a {
     min-width: 169px;
     height: 56px;
     border: none;
+    display: block;
+    margin: center;
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -159,7 +161,7 @@ a {
     width: 1px;
     height: 1px;
     padding: 0;
-    margin: -1px;
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -183,6 +185,8 @@ a {
 .feature-item {
     flex: 1;
     min-width: 264px;
+    gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
 .feature-item-title {
@@ -191,17 +195,18 @@ a {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin: 0 0 8px 0;
     position: relative;
     z-index: 1;
+    margin-bottom: 8px;
 }
 .paragraf {
     line-height: 1.5;
     font-size: 16px;
     letter-spacing: 0.02em;
+    
 }
  .team {
-     padding: 96px 0;
+    padding: 120px 0;
  }
 .team-title {
     font-weight: 500;
@@ -213,11 +218,16 @@ a {
     color: #2e2f42;
     margin-bottom: 72px;
 }
+.member-info {
+    padding: 32px 0;
+}
 .team-member {
     background-color: #FFFFFF;
     width: 264px;
+    text-align: center;
+    margin-bottom: 8px;
 }
-.team ul {
+.team-ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -262,6 +272,7 @@ a {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .portfolio ul {
     list-style: none;
